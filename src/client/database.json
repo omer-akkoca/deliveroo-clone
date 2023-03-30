@@ -1,0 +1,747 @@
+{
+    "categories": [
+        {
+            "id": "category-1",
+            "title": "Offers",
+            "img": "https://www.ibtmerchants.co.uk/images/blogimages/special-offer-banner.jpg",
+            "label": "discount"
+        },
+        {
+            "id": "category-2",
+            "title": "Pizza",
+            "img": "https://images.deliveryhero.io/image/fd-tr/LH/ekyx-listing.jpg",
+            "label": "pizza"
+        },
+        {
+            "id": "category-3",
+            "title": "Fast & Food",
+            "img": "https://images.dedocloud.com/images/firmalar/firma_45/icerik/117967_2_45_firma-icerik_6499.jpg",
+            "label": "fast-food"
+        },
+        {
+            "id": "category4*",
+            "title": "Sushi",
+            "img": "https://www.kikkoman.com.tr/fileadmin/_processed_/e/0/csm_kikkoman-rezepte-content-maki-sushi-with-sardines-basil-1080x720_ef4be06dde.jpg",
+            "label": "sushi"
+        },
+        {
+            "id": "category-5",
+            "title": "Coffee",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/800px-A_small_cup_of_coffee.JPG",
+            "label": "coffee"
+        },
+        {
+            "id": "category-6",
+            "title": "Cake",
+            "img": "https://www.foodandwine.com/thmb/G8SuZEOz_nZDI-2JHStyOGA4eqs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/The-Bear-Chocolate-Cake-FT-RECIPE0323-a6a4c882ba8f49e69caeaeda83abbe38.jpg",
+            "label": "cake"
+        },
+        {
+            "id": "category-7",
+            "title": "Çiğ Köfte",
+            "img": "https://cdn.getiryemek.com/restaurants/1671697081984_1125x522.jpeg",
+            "label": "cig-kofte"
+        },
+        {
+            "id": "category-8",
+            "title": "Seafood",
+            "img": "https://media.istockphoto.com/id/1136517636/photo/fresh-fish-and-ingredients.jpg?s=612x612&w=0&k=20&c=G00doyo--c_FXeV07D_BVHlqzAqwBB7EC05CXhK5vRc=",
+            "label": "seafood"
+        }
+    ],
+    "featured": [
+        {
+            "_id": "featured-1",
+            "name": "Offers Near you!",
+            "short_description": "why not support your local restaurant tonight!",
+            "restaurants": ["restaurant-1","restaurant-3","restaurant-5","restaurant-7","restaurant-11"] 
+        },
+        {
+            "_id": "featured-2",
+            "name": "Featured",
+            "short_description": "Paid placements from our partners",
+            "restaurants": ["restaurant-2","restaurant-5","restaurant-11","restaurant-4"] 
+        },
+        {
+            "_id": "featured-3",
+            "name": "Tasty Discounts",
+            "short_description": "Everyone's been enjoying these juicy discounts!",
+            "restaurants": ["restaurant-10","restaurant-8","restaurant-6","restaurant-2"]
+        }
+    ],
+    "dishes": [],
+    "restaurants": [
+        {
+            "_id": "restaurant-1",
+            "title": "McDonald's",
+            "rating": 4.0,
+            "genre": "Fast Food",
+            "adress": "Yukarı Dudullu Mah. Sancaktepe",
+            "short_description": "Köftenin, peynir ve sosla olan muhteşem uyumuna soğan, taze marul ve turşunun da katılması,",
+            "dishes": [
+                {
+                    "id": "retaurant-1-dishes-1",
+                    "title": "İkili Mekonomik Menü",
+                    "description": "2 adet tercih edeceğiniz Sandviç, 2 adet Patates (Orta), 2 adet Coca-Cola (Orta) (Çıtır Tavuk Ekstra için geçerlidir. Köfteburger tercihinde 17, Daba Daba Burger, McChicken™, Double Köfteburger tercihlerinde 25 TL, Double McChicken, Acılı Tavuk Klasik tercihlerinde 32 TL, Double Cheeseburger, Big Mac™ tercihlerinde 36 TL, McRoyal™, Quarter Pounder tercihlerinde 40 TL fark alınmaktadır.)",
+                    "price": 142,
+                    "img": "https://cdn.getiryemek.com/products/1664350128386_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-1-dishes-2",
+                    "title": "İkili Big Mac™ Menü",
+                    "description": "2 adet Big Mac™, 1 adet Patates (Orta) ve Coca-Cola (1 L)",
+                    "price": 210,
+                    "img": "https://cdn.getiryemek.com/products/1657197086903_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-1-dishes-3",
+                    "title": "2’li McChicken Maç Menüsü",
+                    "description": "2 McChicken, 1 Orta Patates, 4’lü Nugget ve içecek (1 L)",
+                    "price": 126.00,
+                    "img": "https://cdn.getiryemek.com/products/1668689930105_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-1-dishes-4",
+                    "title": "Milli Burger Menü",
+                    "description": "Milli Burger, Patates Kızartması (Orta) ve Coca-Cola (Orta)",
+                    "price": 135,
+                    "img": "https://cdn.getiryemek.com/products/1661238094933_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-1-dishes-5",
+                    "title": "Double Quarter Pounder Menü",
+                    "description": "Double Quarter Pounder, Patates Kızartması (Orta) ve Coca-Cola (Orta)",
+                    "price": 159,
+                    "img": "https://cdn.getiryemek.com/products/1661237924655_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-1-dishes-6",
+                    "title": "Happy Meal™ - Chicken McNuggets 4 Parça",
+                    "description": "Chicken McNuggets 4 Parça, 6'lı Cherry Domates, veya Küçük Boy Patates Kızartması, Ayran (242 ml) ve Sürpriz Oyuncak",
+                    "price": 105,
+                    "img": "https://cdn.getiryemek.com/products/1657197084482_500x375.jpeg"
+                }
+            ],
+            "long": 41.0107966,
+            "lat": 29.1884159,
+            "img": "https://www.eatthis.com/wp-content/uploads/sites/4/2022/01/mcdonalds-big-mac-fries.jpg",
+            "labels": ["fast-food"]
+        },
+        {
+            "_id": "restaurant-2",
+            "title": "Pizza Bulls",
+            "rating": 4.6,
+            "genre": "Fast Food",
+            "adress": "Kaynarca Mah. Pendik",
+            "short_description": "İnce hazırlanmış hamur ve üstünde istediğin her malzeme hemen dene.",
+            "dishes": [
+                {
+                    "id": "retaurant-2-dishes-1",
+                    "title": "Çifte Lezzet 2'li",
+                    "description": "2 Adet Orta Boy Fırsat Pizza ve Litrelik Pepsi Max için geçerlidir. (Klasik Pizzalar 7 TL, Ekstra Pizzalar 14 TL, Premium Pizzalar 21 TL, Gurme Pizzalar 28 TL farkla alınabilir.)",
+                    "price": 139,
+                    "img": "https://cdn.getiryemek.com/products/1679014844189_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-2-dishes-2",
+                    "title": "Nefis Kenar Çiftlik (Orta)",
+                    "description": "Nefis kenarlı orta boy çiftlik pizza (Özel sezar sos, mozzarella peyniri, sosis, jambon, mantar, siyah zeytin, yeşilbiber, mısır)",
+                    "price": 129.90,
+                    "img": "https://cdn.getiryemek.com/products/1571235532387_500x375.png"
+                },
+                {
+                    "id": "retaurant-2-dishes-3",
+                    "title": "Pide de Pizza 'Peynirli' (Orta) Fırsatı",
+                    "description": "İtayanın en önde gelen pizza türü ramazana özel sizlerle",
+                    "price": 79.90,
+                    "img": "https://cdn.getiryemek.com/products/1679532335186_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-2-dishes-4",
+                    "title": "Ramazan Menüsü 1",
+                    "description": "3 adet fırsat grubu orta boy pizza, 3 adet Çıtır Tavuk Topları (75 g), 1 adet litrelik içecek için geçerlidir. Üst grup pizzalar 7 TL farkla alınabilir.",
+                    "price": 300,
+                    "img": "https://cdn.getiryemek.com/products/1679532352637_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-2-dishes-5",
+                    "title": "2si1 Arada (Orta) Fırsatı",
+                    "description": "Orta boy 2'si 1 Arada pizza için geçerlidir.",
+                    "price": 99.75,
+                    "img": "https://cdn.getiryemek.com/products/1671527522812_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-2-dishes-6",
+                    "title": "Tek Kişilik Menü",
+                    "description": "Küçük Boy Pizza, Patates (Orta), İçecek (330 ml) (Fırsat Pizzalar için geçerlidir. Klasik Pizzalar 5 TL, Ekstra Pizzalar 10 TL, Premium Pizzalar 15 TL, Gurme Pizzalar 20 TL farkla alınabilir.)",
+                    "price": 102.90,
+                    "img": "https://cdn.getiryemek.com/products/1678785225808_500x375.jpeg"
+                }
+            ],
+            "long": 40.8758272,
+            "lat": 29.2345255,
+            "img": "https://cdn.getiryemek.com/restaurants/1650325605433_1125x522.jpeg",
+            "labels": ["fast-food","pizza"]
+        },
+        {
+            "_id": "restaurant-3",
+            "title": "Mehmet Abi",
+            "rating": 4.8,
+            "genre": "Sweet",
+            "adress": "Meclis Mah. Sancaktepe",
+            "short_description": "Çiğköfte ve dondurmanın eşssiz mekanı",
+            "dishes": [
+                {
+                    "id": "retaurant-3-dishes-1",
+                    "title": "Doritos'lu Mega Çiğ Köfte Dürüm Menü",
+                    "description": "Doritos'lu Mega Çiğ Köfte Dürüm (125 g çiğ köfte, Doritos taco, çift lavaş, tercih edeceğiniz 5 çeşit garnitür, tercih edeceğiniz 2 çeşit sos), Komagene Ayran (170 ml)",
+                    "price": 49,
+                    "img": "https://cdn.getiryemek.com/products/1599906726788_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-3-dishes-2",
+                    "title": "Çiğ Köfte (500 g) Joker Porsiyon",
+                    "description": "Yarım göbek marul, limon, 4 adet lavaş, 2 adet çiğ köfte sosu, 2 adet nar ekşili sos",
+                    "price": 76,
+                    "img": "https://cdn.getiryemek.com/products/1639747517076_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-3-dishes-3",
+                    "title": "GetirYemek'e Özel Yok Böyle Menü",
+                    "description": "(Restoran getirsin teslimat seçeneğinde online ödemeye özeldir. İndirim ödeme ekranında uygulanacaktır.) 2 adet Mega Dürüm, 2 adet Komagene Ayran (170 ml)",
+                    "price": 0,
+                    "img": "https://cdn.getiryemek.com/products/1679394738251_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-3-dishes-4",
+                    "title": "%50 Kampanyalı Çiğ Köfte (200 g & 100 g)",
+                    "description": "Çeyrek göbek marul, limon, 2 adet lavaş, 1 adet çiğ köfte sosu ve 1 adet nar ekşili sos",
+                    "price": 43,
+                    "img": "https://cdn.getiryemek.com/products/1667395185804_500x375.webp"
+                },
+                {
+                    "id": "retaurant-3-dishes-5",
+                    "title": "Bi'Çift Tatlı Menü",
+                    "description": "2 adet Mega Çiğ Köfte Dürüm (125 g çiğ köfte, çift lavaş, tercih edeceğiniz 5 çeşit ücretsiz garnitür ve 2 çeşit ücretsiz sos) , 2 adet Komagene Ayran (170 ml) ve 2 adet Danette Çikolatalı",
+                    "price": 78.50,
+                    "img": "https://cdn.getiryemek.com/products/1667395197718_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-3-dishes-6",
+                    "title": "Doritos'lu Tako Combo Menü",
+                    "description": "2’li Doritoslu Çiğ Köfte Tako Paketi (Tako Lavaşı, Çiğ Köfte, Doritos, Tako Peyniri, Meksika Fasulyesi, Burger Sos), Doritos Taco Mısır Cipsi (53 g) ve 1 Adet Pepsi Max (330 ml)",
+                    "price": 35.25,
+                    "img": "https://cdn.getiryemek.com/products/1655881876751_500x375.jpeg"
+                }
+            ],
+            "long": 41.0103315,
+            "lat": 29.2002599,
+            "img": "https://i.nefisyemektarifleri.com/2019/10/01/etsiz-cigkofte.jpeg",
+            "labels": ["fast-food","cig-kofte"]
+        },
+        {
+            "_id": "restaurant-4",
+            "title": "Starbucks",
+            "rating": 4.4,
+            "genre": "Coffee",
+            "adress": "Küçükbakkal Köy Mah. Ümraniye",
+            "short_description": "Tüm kahve çeşitlerini en güzel ve tatlı mekanı.",
+            "dishes": [
+                {
+                    "id": "retaurant-4-dishes-1",
+                    "title": "Caffè Misto",
+                    "description": "(Sütlü Filtre Kahve) Demlenmiş, dengeli, yoğun filtre kahve ve süt (Alerjen detayı için “Ek Bilgiler” kısmına bakınız.)",
+                    "price": 38.00,
+                    "img": "https://cdn.getiryemek.com/products/1602707857660_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-4-dishes-2",
+                    "title": "Haşhaşlı Üç Peynirli",
+                    "description": "Haşhaşlı ekşi mayalı ekmek arasında beyaz peynir, cheddar ve kaşar peynirli sandviç (Alerjen detayı için “Ek Bilgiler” kısmına bakınız.)",
+                    "price": 53.00,
+                    "img": "https://cdn.getiryemek.com/products/1602518952338_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-4-dishes-3",
+                    "title": "Berry Hibiscus Refresha®",
+                    "description": "(Kırmızı Meyve Özlü Refresha®) Meyve özleri, böğürtlen ve ahududu parçalarının yeşil çekirdek kahve özü ile buluşması",
+                    "price": 60.00,
+                    "img": "https://cdn.getiryemek.com/products/1620282769779_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-4-dishes-4",
+                    "title": "Caffè Latte",
+                    "description": "Espresso, buharla ısıtılmış kadifemsi süt ve süt köpüğünün buluşması",
+                    "price": 47.00,
+                    "img": "https://cdn.getiryemek.com/products/1602496723119_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-4-dishes-5",
+                    "title": "Iced Caramelised Macadamia Oat Latte",
+                    "description": "Espresso, makademya fındığı şurubunun süte alternatif yulaf lezzetiyle buluşması",
+                    "price": 65.00,
+                    "img": "https://cdn.getiryemek.com/products/1674459718485_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-4-dishes-6",
+                    "title": "Teavana™ Mint Citrus Tea",
+                    "description": "Limon, mine çiçeği, limon otu ve yeşil nane aroması taşıyan yeşil çay harmanı",
+                    "price": 35.00,
+                    "img": "https://cdn.getiryemek.com/products/1602493389000_500x375.jpeg"
+                }
+            ],
+            "long": 40.982171,
+            "lat": 29.1154545,
+            "img": "https://cdn.yemek.com/mnresize/940/940/uploads/2017/07/starbucks-bardak-boylarinin-isimleri.jpg",
+            "labels": ["coffee"]
+        },
+        {
+            "_id": "restaurant-5",
+            "title": "Cake Lovers",
+            "rating": 4.8,
+            "genre": "Sweet",
+            "adress": "Çamlık Mah. Çekmeköy",
+            "short_description": "En güzel tatlı çeitlerinin buluştuğu nokta.",
+            "dishes": [
+                {
+                    "id": "retaurant-5-dishes-1",
+                    "title": "Profiterol (500 g)",
+                    "description": "Pâte à choux hamuru içerisinde vanilyalı pastacı kreması ve bitter Belçika çikolatası ile hazırlanan puding kıvamında sos ile hazırlanmaktadır.",
+                    "price": 110.00,
+                    "img": "https://cdn.getiryemek.com/products/1556622172517_500x375.png"
+                },
+                {
+                    "id": "retaurant-5-dishes-2",
+                    "title": "Çikolatalı Ekler (12 Adet)",
+                    "description": "Çikolatalı pastacı kreması ve gerçek bitter Belçika çikolata soslu",
+                    "price": 140.00,
+                    "img": "https://cdn.getiryemek.com/products/1556622159895_500x375.png"
+                },
+                {
+                    "id": "retaurant-5-dishes-3",
+                    "title": "Limonlu Cheesecake (Dilim)",
+                    "description": "Limon aramosı ve eşşiz burçak bisküvisinin oarçalanması ile tadı damakta kalıcı bir zevk",
+                    "price": 75.00,
+                    "img": "https://cdn.getiryemek.com/products/1556622026981_500x375.png"
+                },
+                {
+                    "id": "retaurant-5-dishes-4",
+                    "title": "Boğaziçi Pasta",
+                    "description": "Muz, çilek, frambuaz ve fıstığın eşşiz birleşimi",
+                    "price": 350.00,
+                    "img": "https://cdn.getiryemek.com/products/1674476748708_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-5-dishes-5",
+                    "title": "Vişneli Tart (Büyük Boy)",
+                    "description": "Egeden gelen ekşi vişnenin ağzınızda tadı kalacak kadar tatlı hale getiren tarif",
+                    "price": 220.00,
+                    "img": "https://cdn.getiryemek.com/products/1675338537259_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-5-dishes-6",
+                    "title": "Karışık Tatlı & Tuzlu Kurabiyesi",
+                    "description": "Tatlı ve tuzlunun inanılmaz birlikteliği... Denemeden bırakmayın",
+                    "price": 130.00,
+                    "img": "https://cdn.getiryemek.com/products/1674648370421_500x375.jpeg"
+                }
+            ],
+            "long": 41.020768,
+            "lat": 29.1466328,
+            "img": "https://cdn.getiryemek.com/restaurants/1556260602029_1125x522.jpeg",
+            "labels": ["cake","fast-food"]
+        },
+        {
+            "_id": "restaurant-6",
+            "title": "Dönerci Celal Usta",
+            "rating": 4.6,
+            "genre": "Fast Food",
+            "adress": "Hürriyet Mah. Kağıthane",
+            "short_description": "Etin uzman eller ile buluştuğu nokta.",
+            "dishes": [
+                {
+                    "id": "retaurant-6-dishes-1",
+                    "title": "Et Döner Dürüm",
+                    "description": "100 g et döner, patates kızartması",
+                    "price": 148.00,
+                    "img": "https://cdn.getiryemek.com/products/1587381572119_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-6-dishes-2",
+                    "title": "Tombik Ekmek Et Döner",
+                    "description": "80 g et döner, patates kızartması",
+                    "price": 129.00,
+                    "img": "https://cdn.getiryemek.com/products/1587381821976_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-6-dishes-3",
+                    "title": "İskender",
+                    "description": "120 g et döner, yanında mevsim salata, tırnak pide, lavaş ve tercihe göre karışık turşu",
+                    "price": 215.00,
+                    "img": "https://cdn.getiryemek.com/products/1587381724493_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-6-dishes-4",
+                    "title": "Mercimek Çorbası",
+                    "description": "Köyde annenizin yaptığı tadı kaybetmeyen bir tarif",
+                    "price": 38.00,
+                    "img": "https://cdn.getiryemek.com/products/1587382067800_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-6-dishes-5",
+                    "title": "Et Döner (Porsiyon)",
+                    "description": "120 g et döner, yanında mevsim salata, tırnak pide, lavaş ve tercihe göre karışık turşu",
+                    "price": 189.90,
+                    "img": "https://cdn.getiryemek.com/products/1587381997415_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-6-dishes-6",
+                    "title": "Tam Ekmek Et Döner",
+                    "description": "100 g et döner, patates kızartması",
+                    "price": 148.00,
+                    "img": "https://cdn.getiryemek.com/products/1587381861349_500x375.jpeg"
+                }
+            ],
+            "long": 41.0312036,
+            "lat": 29.0295595,
+            "img": "https://cdn.getiryemek.com/restaurants/1606845710006_1125x522.jpeg",
+            "labels": ["fast-food"]
+        },
+        {
+            "_id": "restaurant-7",
+            "title": "Ada Et & Kebap House",
+            "rating": 4.5,
+            "genre": "Kebap",
+            "adress": "Emek Mah. Sancaktepe",
+            "short_description": "Etin diyar mekanı tadında...",
+            "dishes": [
+                {
+                    "id": "retaurant-7-dishes-1",
+                    "title": "Antep Lahmacun",
+                    "description": "Yeşillik, sumaklı soğan ve limon",
+                    "price": 30.00,
+                    "img": "https://cdn.getiryemek.com/products/1584785843491_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-7-dishes-2",
+                    "title": "Adana Kebap",
+                    "description": "Közlenmiş domates, biber ve sumaklı soğan ile",
+                    "price": 115.00,
+                    "img": "https://cdn.getiryemek.com/products/1584786000097_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-7-dishes-3",
+                    "title": "Fırınlanmış Adana Dürüm",
+                    "description": "Kaşar peyniri, domates, maydanoz, soğan ve biber turşusu",
+                    "price": 85.00,
+                    "img": "https://cdn.getiryemek.com/products/1584785802925_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-7-dishes-4",
+                    "title": "Tavuk Şiş",
+                    "description": "Közlenmiş domates, biber, sumaklı soğan, yeşillik ve bulgur pilavı ile",
+                    "price": 98.00,
+                    "img": "https://cdn.getiryemek.com/products/1584786023278_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-7-dishes-5",
+                    "title": "Tavuk Kanat",
+                    "description": "Közlenmiş domates, biber, sumaklı soğan, yeşillik ve bulgur pilavı ile",
+                    "price": 105.00,
+                    "img": "https://cdn.getiryemek.com/products/1584785894211_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-7-dishes-6",
+                    "title": "Karışık Pide",
+                    "description": "Kuşbaşı, kıyma, kaşar peyniri, yeşillik, sumaklı soğan ve limon",
+                    "price": 105.00,
+                    "img": "https://cdn.getiryemek.com/products/1584785814351_500x375.jpeg"
+                }
+            ],
+            "long": 41.0048992,
+            "lat": 29.1915496,
+            "img": "https://cdn.getiryemek.com/restaurants/1584786034389_1125x522.jpeg",
+            "labels": ["fast-food"]
+        },
+        {
+            "_id": "restaurant-8",
+            "title": "Antepli Üstadım",
+            "rating": 4.4,
+            "genre": "Fast Food",
+            "adress": "Necip Fazıl Mah. Üsküdar",
+            "short_description": "Antepin en güzel etinden yapılma en güzel etler",
+            "dishes": [
+                {
+                    "id": "retaurant-8-dishes-1",
+                    "title": "Lahmacun Menü 1",
+                    "description": "Lahmacun (3 adet), çiğ köfte, salata ve ayran (200 ml)",
+                    "price": 115.00,
+                    "img": "https://cdn.getiryemek.com/products/1630682083919_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-8-dishes-2",
+                    "title": "Yarım Ekmek Et Döner Menü 1",
+                    "description": "Yarım ekmek et döner, acılı ezme, sütlaç ve ayran (200 ml)",
+                    "price": 140.00,
+                    "img": "https://cdn.getiryemek.com/products/1630682271016_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-8-dishes-3",
+                    "title": "Döner Menü 3",
+                    "description": "Et döner, acılı ezme, kadayıf ve ayran (200 ml)",
+                    "price": 180.00,
+                    "img": "https://cdn.getiryemek.com/products/1630682083783_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-8-dishes-4",
+                    "title": "Alinazik Kebap (Şişten)",
+                    "description": "Sıcak patlıcan söğürme üzerine yoğurt, şiş, köfte ve özel soslu geleneksel Antep kebabı",
+                    "price": 170.00,
+                    "img": "https://cdn.getiryemek.com/products/1630682082854_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-8-dishes-5",
+                    "title": "Üstadım Kebap",
+                    "description": "Beyti sarma, kuzu şiş, tavuk şiş, domates kebap, Adana kebap, kaşarlı fındık lahmacun, özel garnitür",
+                    "price": 260.00,
+                    "img": "https://cdn.getiryemek.com/products/1630682083866_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-8-dishes-6",
+                    "title": "Sarma Beyti Kebap",
+                    "description": "Antep usulü kebap, lavaş ekmeğe sarılmış sarımsaklı şiş köfte üzerine sos ve fıstık",
+                    "price": 160.00,
+                    "img": "https://cdn.getiryemek.com/products/1630682271025_500x375.jpeg"
+                }
+            ],
+            "long": 41.0049343,
+            "lat": 29.1762288,
+            "img": "https://cdn.getiryemek.com/restaurants/1630682285797_1125x522.jpeg",
+            "labels": ["fast-food"]
+        },
+        {
+            "_id": "restaurant-9",
+            "title": "Cajun Corner",
+            "rating": 4.2,
+            "genre": "Fast Food",
+            "adress": "Cevizlik Mah. Bakırköy",
+            "short_description": "Fast foodun başlangıcı tadında",
+            "dishes": [
+                {
+                    "id": "retaurant-9-dishes-1",
+                    "title": "Cajun Burger Menü",
+                    "description": "Cajun Burger (panelenmiş tavuk (130 g), cajun burger sos, kıvırcık marul, turşu), baharatlı patates kızartması veya soğan halkası, kutu içecek, ranch sos ve bbq sos ile",
+                    "price": 123.75,
+                    "img": "https://cdn.getiryemek.com/products/1675080128233_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-9-dishes-2",
+                    "title": "Red Bull Kampüs Menü",
+                    "description": "Cajun Baharatlı Tavuk Sepeti (250 g), baharatlı patates kızartması veya soğan halkası, lavaş ekmek, kutu içecek, ranch sos ve bbq sos ile",
+                    "price": 148.50,
+                    "img": "https://cdn.getiryemek.com/products/1675080743536_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-9-dishes-3",
+                    "title": "Cajun Roll Menü",
+                    "description": "Cajun Roll (tortilla ekmeği arasında cajun baharatlı tavuk parçaları, kıvırcık marul, turşu, garlic sos, sriracha sos), baharatlı patates kızartması veya soğan halkası, kutu içecek, ranch sos ve bbq sos ile",
+                    "price": 121.50,
+                    "img": "https://cdn.getiryemek.com/products/1675080188416_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-9-dishes-4",
+                    "title": "Cajun Wings Menü",
+                    "description": "Cajun Baharatlı Tavuk But (6 Adet), baharatlı patates kızartması veya soğan halkası, lavaş ekmek, kutu içecek, ranch sos ve bbq sos ile",
+                    "price": 130.50,
+                    "img": "https://cdn.getiryemek.com/products/1675080230586_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-9-dishes-5",
+                    "title": "Honky Tonky Burger Menü",
+                    "description": "Honky Tonky Burger (burger köftesi (120 g), cajun burger sos, fümelenmiş jumbo sosis, panelenmiş beyaz cheddar peyniri, karamelize soğan, kıvırcık marul, domates, turşu), baharatlı patates kızartması veya soğan halkası, kutu içecek, ranch sos ve bbq sos ile",
+                    "price": 132.75,
+                    "img": "https://cdn.getiryemek.com/products/1675080595346_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-9-dishes-6",
+                    "title": "Chicken Quesadilla Menü",
+                    "description": "Tavuklu Quesadilla (tortilla ekmeği arasında tavuk parçaları, karamelize soğan, kırmızı biber, yeşil biber, mantar, mısır, beyaz cheddar peyniri), baharatlı patates kızartması veya soğan halkası, kutu içecek, ranch sos ve bbq sos ile",
+                    "price": 139.50,
+                    "img": "https://cdn.getiryemek.com/products/1675080340923_500x375.jpeg"
+                }
+            ],
+            "long": 40.9795417,
+            "lat": 28.7841393,
+            "img": "https://cdn.getiryemek.com/restaurants/1666106179636_1125x522.jpeg",
+            "labels": ["fast-food"]
+        },
+        {
+            "_id": "restaurant-10",
+            "title": "Sushi-G",
+            "rating": 4.5,
+            "genre": "Sushi",
+            "adress": "Rüzgarlı Bahçe Mah. Beykoz",
+            "short_description": "Uzak doğu lezzetinde sushi mekanı",
+            "dishes": [
+                {
+                    "id": "retaurant-10-dishes-1",
+                    "title": "California Roll (8 Adet)",
+                    "description": "Surimi Yengeç, Avokado, Salatalık, Mayonez, Kıvırcık / Dışı Tobikko",
+                    "price": 165.00,
+                    "img": "https://cdn.getiryemek.com/products/1615802091934_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-10-dishes-2",
+                    "title": "Trüflü Ebi Tempura Roll (8 Adet)",
+                    "description": "Kızarmış Karides, Avokado, Salatalık/Dışı Trüf Yağlı Mayonez, Kıtır Patates, Teriyaki Sos, Beyaz ve Siyah Susam",
+                    "price": 200.00,
+                    "img": "https://cdn.getiryemek.com/products/1615802537743_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-10-dishes-3",
+                    "title": "Bento Menü 3",
+                    "description": "Edamame, sesame maki roll (6 adet) california roll (6 adet) sake roll (6 adet) ve tercih edeceğiniz kutu içecek",
+                    "price": 410.00,
+                    "img": "https://cdn.getiryemek.com/products/1615803105962_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-10-dishes-4",
+                    "title": "Çocuk Menüsü",
+                    "description": "2 adet çıtır çin mantısı, 4 adet tavuk topu, sebzeli noodle, 2 adet kızarmış muz ve tercih edeceğiniz kutu içecek",
+                    "price": 290.00,
+                    "img": "https://cdn.getiryemek.com/products/1652877664888_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-10-dishes-5",
+                    "title": "Salmon Dream",
+                    "description": "Philadelphia Roll (4 adet), Spicy Philadelphia Roll (4 adet), Tobiko Philadelphia (4 adet), Black Sesame Philelphia (4 adet)",
+                    "price": 330.00,
+                    "img": "https://cdn.getiryemek.com/products/1615801278802_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-10-dishes-6",
+                    "title": "Sushi Prince 1",
+                    "description": "California Roll (3 adet), Spicy California Roll (3 adet), Sake Roll (3 adet), Kappa Roll (3 adet), Crunchy Roll (5 adet), Sake Nigiri (2 adet), Suzuki Nigiri (2 adet), Kani Nigiri (2 adet), Ebi Nigiri (2 adet), SushiCo Yosun Salatası",
+                    "price": 760.00,
+                    "img": "https://cdn.getiryemek.com/products/1652879149120_500x375.jpeg"
+                }
+            ],
+            "long": 41.0218573,
+            "lat": 29.18278,
+            "img": "https://cdn.getiryemek.com/restaurants/1672063689136_1125x522.jpeg",
+            "labels": ["sushi","seafood"]
+        },
+        {
+            "_id": "restaurant-11",
+            "title": "Midyeci & Kokoreççi Şükrü",
+            "rating": 2.6,
+            "genre": "Deniz Ürünleri",
+            "adress": "Mecidiye Mah. Beşiktaş",
+            "short_description": "Denizden babam çıksa yerim diyenlere özel.",
+            "dishes": [
+                {
+                    "id": "retaurant-11-dishes-1",
+                    "title": "Menü 4",
+                    "description": "Yarım ekmek arası kokoreç, 8 adet midye dolma ve ayran (300 ml)",
+                    "price": 119.90,
+                    "img": "https://cdn.getiryemek.com/products/1632318453353_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-11-dishes-2",
+                    "title": "İzmir Usulü Yarım Ekmek Arası Kokoreç",
+                    "description": "İnce doğranmış ve baharatlı",
+                    "price": 90.00,
+                    "img": "https://cdn.getiryemek.com/products/1620474726115_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-11-dishes-3",
+                    "title": "Midye Dolma (10 Adet)",
+                    "description": "Küçük ve orta boy",
+                    "price": 40.00,
+                    "img": "https://cdn.getiryemek.com/products/1620474607829_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-11-dishes-4",
+                    "title": "Yarım Ekmek Arası Izgara Sucuk",
+                    "description": "Kıvırcık marul, domates, patates kızartması ve salatalık turşusu",
+                    "price": 75.00,
+                    "img": "https://cdn.getiryemek.com/products/1632318576402_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-11-dishes-5",
+                    "title": "Midye Dolma (Büyük)",
+                    "description": "Türkiyenin en temiz ve tatlı midyesine hazır olun (fiyatlandırma adet fiyat üzerinden yapılmaktadır.)",
+                    "price": 5.50,
+                    "img": "https://cdn.getiryemek.com/products/1620474589504_500x375.jpeg"
+                },
+                {
+                    "id": "retaurant-11-dishes-6",
+                    "title": "Yarım Ekmek Arası Tavuk Tantuni",
+                    "description": "İsteğe göre soğan ve şefimiz hazırladığı özel sos",
+                    "price": 60.00,
+                    "img": "https://cdn.getiryemek.com/products/1632318576701_500x375.jpeg"
+                }
+            ],
+            "long": 41.0478675,
+            "lat": 28.8855243,
+            "img": "https://cdn.getiryemek.com/restaurants/1626547624909_1125x522.jpeg",
+            "labels": ["seafood","fast-food"]
+        },
+        {
+            "_id": "restaurant-12",
+            "title": "Aqua Balık Evi",
+            "rating": 3.5,
+            "genre": "Deniz Ürünleri",
+            "adress": "Huzur Mah. Ümraniye",
+            "short_description": "Balık severlerin yemek için buluştuğu tek adres. Özenle hazırlanmış iç mekan tasarımı ve portekizli balık şeflerimiz ile balık tadını zirvede yaşıyoruz.",
+            "dishes": [
+                {
+                    "id": "retaurant-12-dishes-1",
+                    "title": "Hamsi Tava (300 - 400 g)",
+                    "description": "Soğan ve limon ile",
+                    "price": 99.00,
+                    "img": "https://cdn.yemek.com/mnresize/1250/833/uploads/2016/08/hamsi-tava-yeni-one-cikan.jpg"
+                },
+                {
+                    "id": "retaurant-12-dishes-2",
+                    "title": "İstavrit Tava (400 g) Menü",
+                    "description": "İstavrit tava (400 g), yeşil salata, ekmek ve kutu içecek",
+                    "price": 145.00,
+                    "img": "https://cdn.yemek.com/mncrop/940/625/uploads/2014/10/balik-osman-istavrit-tava-tarifi.jpg"
+                },
+                {
+                    "id": "retaurant-12-dishes-3",
+                    "title": "Izgara Çipura (400 g - 500 g) Menü",
+                    "description": "Izgara çipura (400 g - 500 g), yeşil salata ve tercih edeceğiniz içecek",
+                    "price": 179.00,
+                    "img": "https://iasbh.tmgrup.com.tr/919355/812/467/0/1483/2277/2791?u=http://i.tmgrup.com.tr/sfr/2013/07/31/Orjinal/444367404880.jpg"
+                },
+                {
+                    "id": "retaurant-12-dishes-4",
+                    "title": "Karadeniz Mezgit Tava (400 g) Menü",
+                    "description": "Karadeniz mezgit tava (400 g), yeşil salata, ekmek ve kutu içecek",
+                    "price": 169.00,
+                    "img": "https://media-cdn.tripadvisor.com/media/photo-s/0a/ac/58/3a/trabzon-balikcim-restaurant.jpg"
+                },
+                {
+                    "id": "retaurant-12-dishes-5",
+                    "title": "Izgara Levrek (300 g - 400 g) Menü",
+                    "description": "Izgara levrek (300 g - 400 g), yeşil salata ve tercih edeceğiniz içecek",
+                    "price": 199.90,
+                    "img": "https://mutfaksirlari.com/wp-content/uploads/2017/07/izgara-levrek.jpg"
+                },
+                {
+                    "id": "retaurant-12-dishes-6",
+                    "title": "Yengeç Kızartma",
+                    "description": "6 ayaklı dostlarımızı midemizde görmek istersen hemen dene.",
+                    "price": 451.25,
+                    "img": "https://iasbh.tmgrup.com.tr/eb6018/650/344/0/6/1000/530?u=https://isbh.tmgrup.com.tr/sbh/2022/11/18/yengec-yemek-haram-mi-diyanete-gore-yengec-helal-mi-gunah-mi-hukmu-ne-d1-1668779125198.jpg"
+                }
+            ],
+            "long": 41.0478675,
+            "lat": 28.8855243,
+            "img": "https://cdn.getiryemek.com/restaurants/1577461984289_1125x522.jpeg",
+            "labels": ["seafood"]
+        }
+    ]
+}
